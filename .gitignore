@@ -3,3 +3,4 @@ Pending/
 __pycache__/
 *.pyc
 .DS_Store
+public/main.html
