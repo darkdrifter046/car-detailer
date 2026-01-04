@@ -1,6 +1,12 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/public/home.html" },
-    { "source": "/(.*)", "destination": "/public/$1" }
-  ]
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/public/index.html"
+        },
+        {
+            "source": "/:match*",
+            "destination": "/public/:match*"
+        }
+    ]
 }
