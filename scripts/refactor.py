@@ -69,7 +69,7 @@ def clean_html_boilerplate(content, title, brand_name=None, search_index="[]"):
         
         /* Search Bar Styles */
         .search-container {{
-            position: absolute;
+            position: fixed;
             top: 25px;
             left: 80px; /* Right of home icon */
             z-index: 100;
