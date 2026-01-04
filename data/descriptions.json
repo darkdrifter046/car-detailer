@@ -1,0 +1,180 @@
+{
+    "Alfa Romeo": {
+        "Giulia": "The Alfa Romeo Giulia is a luxury sport sedan that marks a return to the brand's rear-wheel-drive heritage. Known for its distinct Italian styling, optimal weight distribution, and direct steering, it competes with top-tier executive cars. The high-performance Quadrifoglio variant features a Ferrari-derived twin-turbo V6.",
+        "Stelvio": "Named after the famous Stelvio Pass, this luxury SUV combines the driving dynamics of a sports car with the practicality of an SUV. It shares its platform with the Giulia, offering agile handling and potent engine options, including the high-performance Quadrifoglio.",
+        "Tonale": "The Alfa Romeo Tonale is a compact luxury crossover that introduces electrification to the brand. Featuring a plug-in hybrid powertrain, it blends eco-conscious efficiency with Alfa's signature sporty character and Italian design flair.",
+        "4C": "The Alfa Romeo 4C is a lightweight, mid-engine sports car that prioritizes raw driving engagement. With a carbon-fiber monocoque chassis and no power steering, it offers an unfiltered connection to the road, reminiscent of classic racing cars.",
+        "8C": "The Alfa Romeo 8C Competizione is a limited-production sports car that celebrates the brand's racing lineage. Powered by a V8 engine and featuring stunning bodywork, it is considered one of the most beautiful modern Alfa Romeos.",
+        "Spider": "The Alfa Romeo Spider is an iconic roadster that embodies the spirit of open-top Italian motoring. From the classic Duetto to modern interpretations, it offers style, character, and a spirited driving experience.",
+        "GTV": "The GTV (Gran Turismo Veloce) is a series of sports coupes known for their distinctive wedge-shaped styling and engaging performance, particularly the acclaimed V6-powered models of the 90s.",
+        "159": "The Alfa Romeo 159 is a compact executive car designed by Giugiaro, known for its striking front fascia and solid build quality, representing a distinct era of Alfa design.",
+        "Brera": "The Alfa Romeo Brera is a sports coupe that originated as a concept car. Its dramatic styling and glass roof make it a unique design statement in the grand touring segment.",
+        "MiTo": "The Alfa Romeo MiTo is a sporty supermini that brings Italian style to the small car segment. It features the 'DNA' drive mode selector and agile handling characteristics.",
+        "Giulietta": "The Giulietta is a premium hatchback that combines practicality with Alfa Romeo's sporting DNA, offering a stylish alternative in the compact segment.",
+        "Montreal": "The Alfa Romeo Montreal is a rare 1970s sports coupe featuring a V8 engine derived from the Tipo 33 race car and distinctive Bertone beltline vents."
+    },
+    "Aston Martin": {
+        "Vantage": "The Aston Martin Vantage is the marque's agile sports car, focused on pure driving dynamics. It features a predatory stance, a powerful V8 or V12 engine, and a chassis tuned for sharpness and engagement on both road and track.",
+        "DB11": "The DB11 is a grand tourer that launched a new era for Aston Martin. Blending high performance with long-distance comfort, it features a striking aerodynamic design and introduced a new twin-turbo V12 engine.",
+        "DB12": "Dubbed the world's first 'Super Tourer', the DB12 elevates the grand touring concept with sharper handling, a revamped luxury interior, and immense power, setting a new benchmark for the class.",
+        "DBS": "The DBS badge is reserved for Aston Martin's flagship production super GTs. These aggressive, lightweight, and powerful V12 models offer the ultimate combination of speed and refinement.",
+        "Vanquish": "The Vanquish is a legendary nameplate for Aston Martin's flagship grand tourers. Known for their carbon-fiber bodies and potent V12 engines, they represent the pinnacle of the brand's engineering and design capabilities.",
+        "Valhalla": "The Valhalla is a mid-engine hybrid supercar that incorporates Formula 1 technology for the road. It focuses on aerodynamics and electrification to deliver extreme performance and lap times.",
+        "Valkyrie": "The Aston Martin Valkyrie is an uncompromising hypercar developed in partnership with Red Bull Racing. It is essentially a road-legal Le Mans prototype, boasting active aerodynamics and a high-revving V12 engine.",
+        "DBX": "The DBX is Aston Martin's first luxury SUV, bringing the brand's performance and style to a versatile platform. It offers sports car-like handling in a package capable of carrying family and luggage.",
+        "Rapide": "The Aston Martin Rapide is a four-door sports car that maintains the sleek profile of a coupe. It offers the performance of a sports car with the added practicality of rear seats.",
+        "One-77": "The One-77 is an ultra-exclusive hypercar limited to just 77 units. It features a carbon-fiber monocoque and a massive naturally aspirated V12, representing the ultimate collector's Aston Martin.",
+        "Vulcan": "The classic Aston Martin Vulcan is a track-only hypercar powered by a naturally aspirated 7.0-litre V12 engine. It is a raw, unadulterated racing machine designed for extreme circuit performance.",
+        "Zagato": "Aston Martin Zagato models are special limited editions created in collaboration with the Italian design house Zagato. They feature unique, often polarizing designs and are highly sought after by collectors.",
+        "DB5": "The Aston Martin DB5 is perhaps the most famous car in the world, largely due to its association with James Bond. It is the quintessential 1960s British grand tourer."
+    },
+    "Dodge": {
+        "Challenger": "The Dodge Challenger is a modern muscle car that stays true to its heritage. With retro styling and a range of powerful engines, specifically the HEMI V8s, it offers classic drag-strip performance and a spacious interior.",
+        "Charger": "The Dodge Charger is a four-door muscle car that delivers family-sized practicality with sports car acceleration. It dominates the full-size sedan segment with its aggressive design and high-horsepower engine options.",
+        "Viper": "The Dodge Viper is a legendary American sports car known for its raw, untamed nature. Powered by a massive V10 engine, it offers a visceral driving experience with minimal electronic aids.",
+        "Durango": "The Dodge Durango is a muscular SUV that stands out with its towing capacity and performance oriented SRT variants. It offers three rows of seating without compromising on Dodge's performance attitude.",
+        "Hornet": "The Dodge Hornet is a compact utility vehicle that brings muscle car attitude to the crossover segment. It features performance-focused tech and plug-in hybrid options.",
+        "Demon": "The Challenger SRT Demon is a drag-strip specialist, engineered for straight-line acceleration. It features specialized tires, suspension, and engine tuning to achieve record-breaking quarter-mile times.",
+        "Hellcat": "The Hellcat variants of the Charger and Challenger feature a supercharged 6.2L HEMI V8. They revolutionized the affordable performance market with over 700 horsepower."
+    },
+    "Ferrari": {
+        "488": "The Ferrari 488 GTB/Spider introduced a turbocharged V8 to the mid-engine lineage, delivering massive torque and award-winning chassis dynamics.",
+        "F8": "The Ferrari F8 Tributo is a celebration of the brand's classic V8 engine. It refines the 488 platform with improved aerodynamics and the powerful engine from the 488 Pista.",
+        "SF90": "The SF90 Stradale is Ferrari's first series-production plug-in hybrid electric vehicle (PHEV). With 1000cv and all-wheel drive, it represents a new paradigm in performance.",
+        "Roma": "The Ferrari Roma is a front-mid-engine coup\u00e9 with refined proportions and timeless design. It evokes the carefree lifestyle of 1950s and 60s Rome, offering 'La Nuova Dolce Vita'.",
+        "Portofino": "The Ferrari Portofino is a versatile drop-top GT with a retractable hardtop, replacing the California. It is designed for daily driving pleasure with legitimate Ferrari performance.",
+        "812": "The Ferrari 812 Superfast is a front-engine V12 grand tourer that delivers blistering performance. It is one of the most powerful naturally aspirated production cars ever made.",
+        "LaFerrari": {
+            "description": "The LaFerrari is a limited-production hybrid hypercar. It acts as a technological showcase, combining a V12 engine with an electric motor (HY-KERS) for maximum performance.",
+            "specs": {
+                "top speed": "350 km/h (217 mph)",
+                "price": "30,00,00,000",
+                "acceleration": "2.6s"
+            }
+        },
+        "296": "The Ferrari 296 GTB introduces a new V6 hybrid powertrain. It is praised for its compact size, agility, and the 'piccolo V12' sound of its engine.",
+        "Purosangue": "The Ferrari Purosangue is the brand's first four-door, four-seater car. Ferrari refuses to call it an SUV, emphasizing its sports car DNA and V12 performance.",
+        "California": "The Ferrari California was a landmark model that introduced the front-V8 layout and retractable hardtop to the modern Ferrari lineup, focusing on usability.",
+        "458": "The Ferrari 458 Italia is widely considered one of the greatest mid-engine sports cars of all time, famous for its screaming naturally aspirated 4.5L V8 engine.",
+        "GTC4Lusso": "The GTC4Lusso is a four-seat, shooting brake grand tourer with all-wheel drive and four-wheel steering, designed to be a Ferrari used in any weather condition.",
+        "Enzo": "The Enzo Ferrari is a historic hypercar named after the founder. Using Formula 1 technology of its time, multiple carbon-fiber elements, and a V12, it remains an icon.",
+        "F40": "The Ferrari F40 is a legendary twin-turbo V8 supercar. It was the last car personally approved by Enzo Ferrari and is celebrated for its raw, analog driving experience."
+    },
+    "Lamborghini": {
+        "Aventador": "The Lamborghini Aventador is the flagship V12 supercar, known for its carbon-fiber monocoque and aggressive, stealth-fighter design. It represents the raw, old-school supercar experience.",
+        "Hurac\u00e1n": "The Lamborghini Hurac\u00e1n is the V10-powered core model, offering a perfect balance of technology and performance. It features the ALA active aerodynamics system on high-performance variants.",
+        "Urus": "The Lamborghini Urus is the world's first Super Sport Utility Vehicle. It merges the soul of a super sports car with the functionality of an SUV, powered by a twin-turbo V8.",
+        "Revuelto": "The Revuelto is Lamborghini's first High Performance Electrified Vehicle (HPEV) V12. It keeps the V12 heritage alive while adding hybrid power for unprecedented performance.",
+        "Countach": "The Countach is the defining supercar of the 70s and 80s, originating the 'wedge' design language. The modern limited edition pays homage to this icon.",
+        "Gallardo": "The Lamborghini Gallardo was the brand's best-selling model for a decade. A V10 sports car that made Lamborghini ownership more accessible and reliable.",
+        "Miura": {
+            "description": "The Lamborghini Miura is considered the world's first true supercar. With its mid-engine layout and stunning Bertone design, it revolutionized automotive design in the 1960s.",
+            "specs": {
+                "price": "30,00,00,000"
+            }
+        },
+        "Murci\u00e9lago": "The Murci\u00e9lago was the flagship V12 supercar of the 2000s. It is famous for its Bat-wings (active aero intakes) and thunderous engine note.",
+        "Centenario": "The Centenario is a limited-edition hypercar created to celebrate the 100th birthday of founder Ferruccio Lamborghini, showcasing advanced aerodynamics and rear-wheel steering.",
+        "Veneno": "The Veneno is an ultra-limited hypercar based on the Aventador, featuring extreme racing-prototype aerodynamics and exclusivity.",
+        "Sian": "The Si\u00e1n FKP 37 is the first super sports car powered by a V12 engine and hybrid technology based on supercapacitors, bridging the gap to the future."
+    },
+    "Maserati": {
+        "Ghibli": "The Maserati Ghibli is a sports executive sedan that brings Italian flair to the segment. It offers a unique combination of style, sportiness, and exclusivity.",
+        "Quattroporte": "The Quattroporte is the original race-bred luxury sedan. Now in its sixth generation, it offers limousine comfort with Ferrari-built engines and sharp handling.",
+        "Levante": "The Maserati Levante is the brand's SUV, the 'Maserati of SUVs'. It features distinct Italian styling, a luxurious interior, and engaging driving dynamics.",
+        "GranTurismo": "The GranTurismo is an iconic coupe that embodies the concept of a grand tourer. It is famous for its timeless Pininfarina design and the symphonic sound of its naturally aspirated V8.",
+        "MC20": "The MC20 is a mid-engine super sports car that marks Maserati's return to its racing roots. It features the innovative 'Nettuno' V6 engine with F1-derived pre-chamber combustion.",
+        "Grecale": "The Grecale is a compact luxury SUV that fits below the Levante. It offers best-in-class interior space and performance, including a fully electric Folgore version.",
+        "MC12": "The MC12 is a legendary limited-production homologation special based on the Ferrari Enzo chassis, built to allow Maserati to compete in the FIA GT Championship."
+    },
+    "Koenigsegg": {
+        "Jesko": "The Koenigsegg Jesko is a megacar designed for ultimate track performance (Attack) or top speed (Absolut). It features the world's fastest-shifting transmission, the LST, and a twin-turbo V8 producing up to 1600 hp.",
+        "Gemera": "The Koenigsegg Gemera is the world's first 'Mega-GT', a four-seater hypercar. It combines a Tiny Friendly Giant (TFG) 3-cylinder engine with electric motors to produce 1700+ hp, offering hypercar performance for the whole family.",
+        "Regera": "The Koenigsegg Regera is a luxury megacar designed as a grand tourer. It eschews a traditional gearbox for the Koenigsegg Direct Drive (KDD) system, delivering 1500 hp seamlessly and instantly.",
+        "One:1": "The Koenigsegg One:1 is the world's first Megacar, achieving a perfect 1:1 power-to-weight ratio (1360 hp to 1360 kg). It was designed to be the ultimate track weapon.",
+        "CC850": "The Koenigsegg CC850 is a tribute to the CC8S, confirming the brand's roots while utilizing modern tech like the ESS (Engage Shift System), which allows the driver to switch between a manual and automatic gearbox.",
+        "Agera": "The Agera RS held the production car top speed record. It is a machine of pure speed and engineering excellence.",
+        "CCX": "The CCX was the first Koenigsegg designed for the global market, moving away from proper Ford modular engines to an in-house developed V8."
+    },
+    "McLaren": {
+        "720S": "The McLaren 720S is a benchmark supercar in the Super Series. Its organic shape is designed for aerodynamics, and its Monocage II carbon structure delivers immense stiffness and speed.",
+        "765LT": "The 765LT is the 'Longtail' version of the 720S. It is lighter, lower, and more powerful, focused on extreme track performance and driver engagement.",
+        "570S": "The 570S is part of the Sports Series, offering supercar excitement in a more usable package. It features a carbon-fiber chassis and a 3.8L twin-turbo V8.",
+        "600LT": "The 600LT is the track-focused variant of the Sports Series. With top-exit exhausts and reduced weight, it offers a raw and thrilling driving experience.",
+        "P1": "The McLaren P1 is a hybrid hypercar and part of the 'Holy Trinity'. It paved the way for modern performance hybrids, utilizing electric torque fill for instant acceleration.",
+        "Senna": "The McLaren Senna is the ultimate track-concentrated road car. It prioritizes downforce and aerodynamics over everything else, offering race-car lap times.",
+        "Speedtail": "The Speedtail is a Hyper-GT and McLaren's fastest car ever. It features a central driving position (like the F1) and a streamlined teardrop shape for high-speed efficiency.",
+        "Artura": "The McLaren Artura is the new generation High-Performance Hybrid (HPH) supercar. It debuts the new McLaren Carbon Lightweight Architecture (MCLA) and a V6 hybrid powertrain.",
+        "GT": "The McLaren GT reimagines the grand tourer. It offers class-leading luggage space and refinement while maintaining the agility and lightweight feel of a true McLaren.",
+        "F1": {
+            "description": "The McLaren F1 is the definitive supercar of the 90s. With its gold-lined engine bay, central seat, and naturally aspirated V12, it remains a performance benchmark.",
+            "specs": {
+                "top speed": "386 km/h (240 mph)",
+                "acceleration": "3.2s"
+            }
+        }
+    },
+    "Mercedes": {
+        "AMG GT": "The Mercedes-AMG GT is a pure sports car developed entirely in-house by AMG. It features a front-mid-engine layout and a transaxle for optimal weight distribution.",
+        "G-Class": "The G-Class (G-Wagon) is an automotive icon. Originally a military vehicle, it has evolved into a luxurious, high-performance SUV that retains its legendary off-road capability.",
+        "S-Class": "The S-Class is the flagship sedan of Mercedes-Benz and the benchmark for the luxury industry. It pilots the brand's newest technology, safety, and comfort innovations.",
+        "C-Class": "The C-Class is a compact executive car that borrows styling and technology from the S-Class. It offers a sophisticated blend of comfort and sportiness.",
+        "E-Class": "The E-Class is the core of the brand, an executive car that balances dynamic elegance with intelligence. It is known for its long-distance comfort and advanced driver aids.",
+        "SL": "The SL Class is a legendary roadster lineage. The modern SL is a 2+2 grand tourer developed by AMG, returning to a soft-top roof and offering high-performance handling.",
+        "GLE": "The GLE is a mid-size luxury SUV that offers a refined interior and advanced suspension technology like E-ACTIVE BODY CONTROL.",
+        "GLS": "The GLS is the 'S-Class of SUVs'. It offers massive space, luxury for seven passengers, and commanding road presence.",
+        "CLA": "The CLA is a four-door coupe that brings the dramatic styling of the CLS to the compact segment. It appeals to a younger demographic with its sporty design.",
+        "CLS": "The CLS pioneered the four-door coupe segment. It prioritizes design and aesthetics, with a sweeping roofline and frameless windows.",
+        "Maybach": "Mercedes-Maybach represents the ultimate in exclusivity and luxury. These models feature extended wheelbases, opulent materials, and first-class rear seating.",
+        "EQS": "The EQS is the all-electric flagship sedan. It features a unique 'One Bow' design and the massive MBUX Hyperscreen, setting the standard for electric luxury.",
+        "A-Class": {
+            "description": "The Mercedes A-Class is a premium compact hatchback that offers advanced technology and connectivity. It brings Mercedes luxury to a more accessible segment.",
+            "specs": {
+                "top speed": "225 km/h",
+                "acceleration": "8.2s"
+            }
+        }
+    },
+    "Porsche": {
+        "911": "The Porsche 911 is the quintessential sports car. With its rear-engine layout and evolutionary design, it sets the standard for performance, usability, and durability.",
+        "Cayman": "The 718 Cayman is a mid-engine sports coupe. Known for its perfect balance, it offers perhaps the purest driving experience in the Porsche lineup.",
+        "Boxster": "The 718 Boxster is the roadster sibling to the Cayman. It offers the same mid-engine balance with the joy of open-top driving.",
+        "Taycan": "The Taycan is Porsche's first all-electric sports sedan. It delivers true Porsche driving dynamics with 800-volt battery architecture for repeatable high performance.",
+        "Panamera": "The Panamera is a sports sedan for four. It combines the performance of a sports car with the comfort of a luxury saloon.",
+        "Macan": "The Macan is a compact SUV that drives like a sports car. It is the benchmark for handling in its segment.",
+        "Cayenne": "The Cayenne saved the company and established the performance SUV segment. It offers genuine off-road capability mixed with track-ready performance.",
+        "918": "The 918 Spyder is a plug-in hybrid hypercar. It proved that hybrid technology could enhance performance, smashing the N\u00fcrburgring lap record.",
+        "Carrera GT": "The Carrera GT is an analog supercar icon. With a screaming V10 engine derived from a failed Le Mans prototype and a manual gearbox, it is legendary."
+    },
+    "BMW": {
+        "M3": "The BMW M3 is the benchmark for high-performance sedans. It combines track-ready chassis dynamics with everyday usability.",
+        "M4": "The BMW M4 is the coupe version of the M3. It features aggressive styling, a large kidney grille, and the same S58 twin-turbo inline-six engine.",
+        "M5": "The BMW M5 is the original super-sedan. It is an executive car with supercar performance, capable of devouring autobahns and racetracks alike.",
+        "M2": "The BMW M2 is widely regarded as the spiritual successor to the original 2002 Turbo. Small, punchy, and rear-wheel drive, it is a favorite among purists.",
+        "3 Series": "The BMW 3 Series is the definitive compact executive car. It has set the standard for driving dynamics in its class for decades.",
+        "5 Series": "The BMW 5 Series is a mid-size luxury sedan that perfectly balances sportiness and comfort. It helps define the 'Business Athlete' concept.",
+        "7 Series": "The 7 Series is BMW's flagship luxury sedan. It showcases the latest technology, including theater screens and advanced autonomous driving features.",
+        "8 Series": "The 8 Series is a grand tourer available as a Coupe, Convertible, and Gran Coupe. It offers effortless performance and high style.",
+        "X5": "The BMW X5 was the brand's first 'Sports Activity Vehicle'. It handles more like a sedan than a truck, setting a high bar for SUV dynamics.",
+        "X7": "The X7 is the largest BMW SAV, offering three rows of luxury seating and dominating road presence.",
+        "i8": "The BMW i8 was a revolutionary plug-in hybrid sports car. With its carbon-fiber construction and futuristic design, it looked like a concept car for the road.",
+        "Z4": "The BMW Z4 is a classic two-seat roadster with a long hood and short deck. It offers open-air driving pleasure with modern technology."
+    },
+    "Bugatti": {
+        "Veyron": "The Bugatti Veyron 16.4 reset the standard for hypercars. With 1001 horsepower and a top speed of over 400 km/h, it was an engineering marvel of the 2000s.",
+        "Chiron": {
+            "description": "The Bugatti Chiron is the successor to the Veyron. With a 1500hp W16 engine, it is a masterpiece of art, form, and technique, pushing the boundaries of physics.",
+            "specs": {
+                "horsepower": "1500 HP",
+                "top speed": "420 km/h (261 mph)",
+                "price": "24,00,00,000",
+                "acceleration": "2.4s"
+            }
+        },
+        "Divo": "The Bugatti Divo is a track-focused hypercar based on the Chiron. It is lighter, generates more downforce, and is designed for cornering agility.",
+        "Bolide": "The Bugatti Bolide is an experimental track-only hypercar. It strips away all luxury to achieve an unbelievable power-to-weight ratio using the W16 engine.",
+        "Centodieci": "The Centodieci is a limited-series tribute to the EB110. It features a distinctive wedge-shaped design and is one of the most exclusive modern Bugattis.",
+        "Mistral": "The W16 Mistral is the ultimate open-top roadster. It serves as a swan song for the legendary W16 engine.",
+        "La Voiture Noire": "La Voiture Noire is a one-off automotive haute couture creation. A tribute to the Type 57 SC Atlantic, it is one of the most expensive new cars ever sold."
+    }
+}

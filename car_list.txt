@@ -1,0 +1,385 @@
+=== Alfa Romeo ===
+Giulia Quadrifoglio
+Stelvio Quadrifoglio
+4C Coupe
+8C Competizione
+Giulia Ti
+Stelvio
+Tonale
+Junior
+33 Stradale (2024)
+Brera
+166
+GTV
+GT
+MiTo
+Giulietta
+75
+SZ
+Montreal
+164
+145
+146
+Spider Classic
+Alfasud
+Sprint
+
+=== Aston Martin ===
+DB5
+DB6
+DB7
+DB9
+DB11
+DBS Superleggera
+V8 Vantage
+V12 Vantage
+Vantage (modern)
+Vanquish
+Rapide
+Lagonda
+Cygnet
+One-77
+Vulcan
+Valhalla
+Valkyrie
+Vantage AMR
+DBS GT Zagato
+Rapide AMR
+DBS GT
+DB4
+DB4 GT Zagato
+DBS Superleggera (Special)
+DBX (SUV)
+DBX707
+Vantage Roadster
+V12 Speedster
+Victor (Coachbuilt)
+Shooting Brake (Special)
+
+=== Dodge ===
+Dodge Challenger SRT Hellcat Muscle
+Dodge Charger SRT Hellcat Sedan Beast
+Dodge Challenger SRT Demon Drag King
+Dodge Viper GTS Supercar
+Dodge Charger Daytona Limited
+Dodge Challenger SRT Hellcat Redeye Extreme
+Dodge Charger SRT Hellcat Redeye Road Monster
+Dodge Challenger R/T Classic
+Dodge Charger R/T Muscle Sedan
+Dodge Viper ACR Track
+Dodge Durango SRT SUV
+Dodge Magnum SRT8 Wagon
+Dodge Ram SRT-10 Performance Truck
+Dodge Neon SRT-4 Hot Hatch
+Dodge Dart GT Compact
+Dodge Avenger R/T Midsize
+Dodge Caliber SRT4 Sport Compact
+Dodge Stealth R/T Coupe
+Dodge Stratus R/T Touring
+Dodge Intrepid ES Executive
+Dodge Polara Classic
+Dodge Coronet R/T Heritage
+Dodge Super Bee Muscle
+Dodge Challenger T/A Icon
+Dodge Charger Daytona SRT Limited
+Dodge Viper SRT-10 V10
+Dodge Dakota R/T Pickup
+Dodge Omni GLH Hot Hatch
+Dodge Colt GT Classic Compact
+Dodge Kingsway Classic Vintage
+
+=== Ferrari  30 Models ===
+Ferrari 250 GTO
+Ferrari 250 Testa Rossa
+Ferrari Dino 246 GT
+Ferrari 288 GTO
+Ferrari Testarossa
+Ferrari F40
+Ferrari F50
+Ferrari Enzo Ferrari
+Ferrari 360 Modena
+Ferrari 360 Challenge Stradale
+Ferrari 430 Scuderia
+Ferrari California
+Ferrari 458 Italia
+Ferrari 458 Speciale
+Ferrari 488 GTB
+Ferrari 488 Pista
+Ferrari Portofino
+Ferrari Roma
+Ferrari F8 Tributo
+Ferrari Monza SP1
+Ferrari Monza SP2
+Ferrari SF90 Stradale
+Ferrari SF90 Spider
+Ferrari 812 Superfast
+Ferrari 812 GTS
+Ferrari Purosangue
+Ferrari Daytona SP3
+Ferrari LaFerrari
+Ferrari J50
+Ferrari Sergio
+Koenigsegg Jesko Absolut
+Koenigsegg Jesko Attack
+Koenigsegg Gemera
+Koenigsegg Regera
+Koenigsegg One:1
+Koenigsegg CC850
+Koenigsegg CC8S
+Koenigsegg CCX
+Koenigsegg CCR
+Koenigsegg CCXR
+Koenigsegg CCXR Trevita
+Koenigsegg CCX Edition
+Koenigsegg CCXR Edition
+Koenigsegg CCXR Special Edition
+Koenigsegg Agera
+Koenigsegg Agera R
+Koenigsegg Agera S
+Koenigsegg Agera RS
+Koenigsegg Regera Ghost Package
+Koenigsegg Jesko Odin
+Koenigsegg Gemera HV8
+Koenigsegg CCGT
+Koenigsegg CC Prototype
+Koenigsegg Agera Final Edition
+Koenigsegg Jesko
+Koenigsegg CCXR Platinum
+Koenigsegg CCXR Sport
+Koenigsegg CCX Special Edition
+Koenigsegg Agera S Hundra
+Koenigsegg Agera RSR
+
+=== Lamborghini ===
+Miura SV
+Countach LP400
+Countach LPI 800-4
+Diablo VT
+Murciélago LP640
+Murciélago SV
+Jalpa
+Gallardo LP560-4
+Aventador LP700-4
+Aventador SVJ
+Aventador Ultimae
+Huracán LP610-4
+Huracán Performante
+Huracán Tecnica
+Revuelto
+Urus
+Sián FKP 37
+Sesto Elemento
+Reventón
+Reventón Roadster
+Veneno
+Veneno Roadster
+Asterion (Concept)
+Estoque (Concept)
+Marzal (Concept)
+Egoista (Concept)
+Terzo Millennio
+Miura Concept (2013)
+Huracán Sterrato
+Centenario
+Essenza SCV12 Naturally Aspirated Engine
+SCV12 Naturally Aspirated Engine
+
+=== Maserati ===
+MC20
+MC20 Cielo
+GranTurismo Trofeo
+GranTurismo Modena
+GranCabrio (2024)
+Grecale Trofeo
+Grecale Modena
+Levante Trofeo
+Levante GTS
+Ghibli S
+Ghibli
+MC12
+GranTurismo (2007-2019)
+GranTurismo S
+GranCabrio (2010-2019)
+3200 GT
+Coupe
+Spyder
+GranSport
+GranSport Spyder
+Biturbo
+Shamal
+Karif
+Bora
+Merak
+Khamsin
+Indy
+Ghibli (1967-1973)
+Mistral
+Sebring
+
+=== McLaren ===
+McLaren F1
+McLaren F1 LM
+McLaren MP4-12C
+McLaren 12C Spider
+McLaren 650S
+McLaren 650S Spider
+McLaren 675LT
+McLaren 600LT
+McLaren 570S
+McLaren 570S Spider
+McLaren 625C
+McLaren 625C Spider
+McLaren 720S
+McLaren 720S Spider
+McLaren 765LT
+McLaren 620R
+McLaren 540C
+McLaren P1
+McLaren P1 LM
+McLaren Senna
+McLaren Senna GTR
+McLaren Speedtail
+McLaren Speedtail (Variant)
+McLaren Elva
+McLaren Sabre
+McLaren GT
+McLaren GT (Special)
+McLaren Artura
+McLaren Artura Spider
+
+=== Mercedes ===
+Mercedes A‑Class
+Mercedes B‑Class
+Mercedes C‑Class
+Mercedes CLA
+Mercedes CLS
+Mercedes E‑Class
+Mercedes S‑Class
+Mercedes‑Maybach S‑Class
+Mercedes AMG GT
+AMG GT 4‑Door Coupe
+Mercedes AMG C63
+Mercedes AMG E63
+Mercedes AMG G63
+Mercedes AMG SL
+Mercedes AMG One
+Mercedes GLA
+Mercedes GLB
+Mercedes GLC
+Mercedes GLE
+Mercedes GLS
+Mercedes G‑Class
+Mercedes EQC (EV)
+Mercedes EQS (EV)
+Mercedes EQB (EV)
+Mercedes EQE (EV)
+Mercedes V‑Class
+Mercedes X‑Class (Pickup)
+Mercedes SLK
+Mercedes‑SLR McLaren
+Mercedes CLK
+
+=== Porsche ===
+911 Turbo S
+911 GT3 RS
+911 GT3
+911 Carrera 4 GTS
+911 Carrera
+911 Targa 4S
+Taycan Turbo S
+Taycan Turbo
+Taycan 4S
+Taycan
+Panamera Turbo S E-Hybrid
+Panamera GTS
+Panamera
+Cayenne Turbo GT
+Cayenne GTS
+Cayenne
+Cayenne GTS Coupe
+Cayenne Coupe
+Macan Turbo Electric
+Macan 4S Electric
+Macan Electric
+Macan
+718 Boxster Spyder
+718 Cayman GT4
+718 Boxster GTS 4.0
+718 Cayman GTS 4.0
+718 Boxster
+718 Cayman
+Carrera GT
+918 Spyder
+911 Turbo (930)
+356
+959
+911 Classic (1963)
+
+=== BMW ===
+BMW M3 Competition
+BMW M5 CS
+BMW X5 M Competition
+BMW X6 M Competition
+BMW 7 Series (740i)
+BMW i7 xDrive60
+BMW 5 Series (530i)
+BMW 3 Series (330i)
+BMW Z4 M40i
+BMW M8 Competition
+BMW X1 sDrive18i
+BMW X3 xDrive30i
+BMW X4 M40i
+BMW X7 xDrive40i
+BMW i4 eDrive40
+BMW iX xDrive50
+BMW M2 (G87)
+BMW M4 Competition
+BMW 840i Gran Coupe
+BMW 220i Gran Coupé
+BMW 6 Series GT (630i)
+BMW X5 xDrive40i
+BMW X6 xDrive40i
+BMW i7 M70 xDrive
+BMW M4 CSL
+BMW M3 CS
+BMW 520d
+BMW Z4 sDrive20i
+BMW 330Li
+BMW M850i xDrive
+BMW iX1 xDrive30
+BMW i5 eDrive40
+BMW i8 (PHEV)
+BMW iX3
+
+=== Bugatti ===
+Chiron Super Sport 300+
+Chiron Pur Sport
+Chiron Sport
+Chiron
+Tourbillon
+Bolide
+Mistral
+Divo
+Centodieci
+La Voiture Noire
+Veyron 16.4
+Veyron Super Sport
+Veyron Grand Sport
+Veyron Grand Sport Vitesse
+EB110 GT
+EB110 SS
+Type 57SC Atlantic
+Type 57
+Type 35
+Type 41 Royale
+Type 55
+Type 46
+Type 43
+Type 50
+Type 101
+Type 13 Brescia
+Type 18 Black Bess
+Type 37
+Type 39
+Type 251
+
