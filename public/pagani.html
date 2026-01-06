@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pagani Cars Gallery — 30 Models</title>
+  <style>
+    :root{
+      --bg:#0b0b10;         /* deep black */
+      --card:#13131a;       /* dark card */
+      --muted:#b9b9c6;      /* soft gray text */
+      --text:#fbfbff;       /* bright text */
+      --accent:#43e9d8;     /* teal accent */
+      --accent-2:#8a7dff;   /* secondary accent */
+      --chip:#1e1e2a;       /* chip bg */
+      --shadow: 0 10px 30px rgba(0,0,0,.45);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:inherit}
+    header{
+      position:sticky;top:0;z-index:50;
+      background:linear-gradient(180deg, rgba(11,11,16,.95), rgba(11,11,16,.6) 60%, rgba(11,11,16,0));
+      backdrop-filter:saturate(120%) blur(6px);
+      border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    .container{max-width:1200px;margin-inline:auto;padding:20px}
+    .title{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+    .badge{background:var(--chip);color:var(--muted);border:1px solid rgba(255,255,255,.08);padding:6px 10px;border-radius:999px;font-size:12px}
+    .searchbar{display:flex;gap:10px;margin-top:14px}
+    .searchbar input{
+      flex:1;padding:12px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.08);
+      background:#0f0f16;color:var(--text);outline:none
+    }
+    .searchbar input::placeholder{color:#777}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{background:var(--chip);border:1px solid rgba(255,255,255,.08);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+
+    .grid{display:grid;gap:18px;margin-top:22px;grid-template-columns:repeat(1,minmax(0,1fr))}
+    @media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+
+    .card{background:linear-gradient(180deg,#141420,#0f0f17);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);transition:transform .2s ease, box-shadow .2s ease}
+    .card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(0,0,0,.55)}
+    .thumb{aspect-ratio:16/9;background:#0d0d14;display:block;width:100%;object-fit:cover}
+    .card-body{padding:14px 14px 16px}
+    .name{font-weight:700;letter-spacing:.2px}
+    .muted{color:var(--muted)}
+    .specs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}
+    .spec{background:var(--chip);border:1px solid rgba(255,255,255,.06);padding:10px;border-radius:12px;font-size:13px}
+    .cta{margin-top:12px;display:flex}
+    .btn{
+      cursor:pointer;user-select:none;border:none;border-radius:12px;padding:10px 12px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#001218;font-weight:700
+    }
+
+    /* Modal */
+    dialog{width:min(920px,92vw);border:none;border-radius:18px;padding:0;background:#0f0f16;color:var(--text);box-shadow:0 30px 80px rgba(0,0,0,.65)}
+    dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(3px)}
+    .modal-head{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .modal-grid{display:grid;grid-template-columns:1fr;gap:16px;padding:16px}
+    @media(min-width:860px){.modal-grid{grid-template-columns:1.15fr .85fr}}
+    .modal-img{width:100%;border-radius:14px;aspect-ratio:16/9;object-fit:cover;border:1px solid rgba(255,255,255,.08)}
+    .kv{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .kv .box{background:var(--chip);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px}
+    .close{background:#1a1a26;border:1px solid rgba(255,255,255,.12);color:var(--text);padding:8px 12px;border-radius:10px;cursor:pointer}
+    .foot{display:flex;justify-content:flex-end;padding:14px 18px;border-top:1px solid rgba(255,255,255,.08)}
+
+    /* tiny helper row */
+    .legend{margin-top:8px;color:#9aa0a6;font-size:12px}
+    code{background:#141420;border:1px solid rgba(255,255,255,.08);padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="title">
+        <h1 style="margin:0;font-size:clamp(22px,3.2vw,34px);font-weight:900;letter-spacing:.3px">Pagani Cars — 30 Model Gallery</h1>
+        <span class="badge">Dark theme • Clickable cards • Replace <code>img src</code></span>
+      </div>
+      <div class="searchbar">
+        <input id="search" type="search" placeholder="Search model (e.g., Zonda, Huayra, Utopia)…" />
+      </div>
+      <div class="legend">Tip: Replace every image’s <code>src</code> with your own Google-found URL. Keep the rest as-is.</div>
+      <div class="chips">
+        <span class="chip">All specs are editable</span>
+        <span class="chip">Speed shown in km/h & mph</span>
+        <span class="chip">Prices in ₹ (INR)</span>
+        <span class="chip">0–100 km/h timing included</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <dialog id="modal">
+    <div class="modal-head">
+      <h3 id="m-title" style="margin:0"></h3>
+      <button class="close" onclick="closeModal()">Close</button>
+    </div>
+    <div class="modal-grid">
+      <img id="m-img" class="modal-img" src="" alt="Pagani" />
+      <div>
+        <p id="m-desc" class="muted" style="margin-top:0">High-level description and quick facts.</p>
+        <div class="kv">
+          <div class="box"><strong>Horsepower</strong><br><span id="m-hp" class="muted"></span></div>
+          <div class="box"><strong>Top Speed</strong><br><span id="m-top" class="muted"></span></div>
+          <div class="box"><strong>0–100 km/h</strong><br><span id="m-accel" class="muted"></span></div>
+          <div class="box"><strong>Price (₹)</strong><br><span id="m-price" class="muted"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <button class="close" onclick="closeModal()">Close</button>
+    </div>
+  </dialog>
+
+  <script>
+    // === EDIT ME: Replace each img "src" with your own Google-found URL ===
+    const cars = [
+      {name:"Zonda C12", year:1999, img:"https://your-image-url.com/zonda-c12.jpg", hp:394, topKph:295, topMph:183, zeroTo100:"4.2 s", priceInr:"₹ 3,50,00,000"},
+      {name:"Zonda S", year:2000, img:"https://your-image-url.com/zonda-s.jpg", hp:408, topKph:300, topMph:186, zeroTo100:"4.0 s", priceInr:"₹ 3,80,00,000"},
+      {name:"Zonda S 7.3", year:2002, img:"https://your-image-url.com/zonda-s-7-3.jpg", hp:555, topKph:335, topMph:208, zeroTo100:"3.7 s", priceInr:"₹ 5,20,00,000"},
+      {name:"Zonda Roadster", year:2003, img:"https://your-image-url.com/zonda-roadster.jpg", hp:555, topKph:335, topMph:208, zeroTo100:"3.7 s", priceInr:"₹ 5,60,00,000"},
+      {name:"Zonda F", year:2005, img:"https://your-image-url.com/zonda-f.jpg", hp:602, topKph:345, topMph:214, zeroTo100:"3.6 s", priceInr:"₹ 6,90,00,000"},
+      {name:"Zonda F Roadster", year:2006, img:"https://your-image-url.com/zonda-f-roadster.jpg", hp:602, topKph:345, topMph:214, zeroTo100:"3.6 s", priceInr:"₹ 7,20,00,000"},
+      {name:"Zonda R", year:2009, img:"https://your-image-url.com/zonda-r.jpg", hp:750, topKph:350, topMph:217, zeroTo100:"2.7 s", priceInr:"₹ 12,00,00,000"},
+      {name:"Zonda Cinque", year:2009, img:"https://your-image-url.com/zonda-cinque.jpg", hp:678, topKph:350, topMph:217, zeroTo100:"3.4 s", priceInr:"₹ 10,50,00,000"},
+      {name:"Zonda Cinque Roadster", year:2010, img:"https://your-image-url.com/zonda-cinque-roadster.jpg", hp:678, topKph:350, topMph:217, zeroTo100:"3.4 s", priceInr:"₹ 11,20,00,000"},
+      {name:"Zonda Tricolore", year:2010, img:"https://your-image-url.com/zonda-tricolore.jpg", hp:670, topKph:350, topMph:217, zeroTo100:"3.4 s", priceInr:"₹ 11,00,00,000"},
+      {name:"Zonda 760 RS", year:2012, img:"https://your-image-url.com/zonda-760-rs.jpg", hp:760, topKph:350, topMph:217, zeroTo100:"2.9 s", priceInr:"₹ 12,50,00,000"},
+      {name:"Zonda 760 LH", year:2013, img:"https://your-image-url.com/zonda-760-lh.jpg", hp:760, topKph:349, topMph:217, zeroTo100:"2.9 s", priceInr:"₹ 12,70,00,000"},
+      {name:"Zonda 760 Roadster", year:2013, img:"https://your-image-url.com/zonda-760-roadster.jpg", hp:760, topKph:349, topMph:217, zeroTo100:"2.9 s", priceInr:"₹ 12,90,00,000"},
+      {name:"Zonda Revolucion", year:2013, img:"https://your-image-url.com/zonda-revolucion.jpg", hp:800, topKph:350, topMph:217, zeroTo100:"2.7 s", priceInr:"₹ 13,50,00,000"},
+      {name:"Zonda HP Barchetta", year:2017, img:"https://your-image-url.com/zonda-hp-barchetta.jpg", hp:789, topKph:355, topMph:221, zeroTo100:"3.1 s", priceInr:"₹ 140,00,00,000"},
+      {name:"Huayra", year:2011, img:"https://your-image-url.com/huayra.jpg", hp:700, topKph:370, topMph:230, zeroTo100:"3.3 s", priceInr:"₹ 18,00,00,000"},
+      {name:"Huayra Roadster", year:2017, img:"https://your-image-url.com/huayra-roadster.jpg", hp:754, topKph:360, topMph:224, zeroTo100:"3.3 s", priceInr:"₹ 21,00,00,000"},
+      {name:"Huayra BC", year:2016, img:"https://your-image-url.com/huayra-bc.jpg", hp:745, topKph:370, topMph:230, zeroTo100:"2.8 s", priceInr:"₹ 24,00,00,000"},
+      {name:"Huayra BC Roadster", year:2019, img:"https://your-image-url.com/huayra-bc-roadster.jpg", hp:791, topKph:370, topMph:230, zeroTo100:"3.1 s", priceInr:"₹ 28,00,00,000"},
+      {name:"Huayra Roadster BC", year:2019, img:"https://your-image-url.com/huayra-roadster-bc.jpg", hp:791, topKph:370, topMph:230, zeroTo100:"3.1 s", priceInr:"₹ 28,50,00,000"},
+      {name:"Huayra Imola", year:2020, img:"https://your-image-url.com/huayra-imola.jpg", hp:827, topKph:383, topMph:238, zeroTo100:"2.8 s", priceInr:"₹ 40,00,00,000"},
+      {name:"Huayra R", year:2021, img:"https://your-image-url.com/huayra-r.jpg", hp:850, topKph:320, topMph:199, zeroTo100:"3.0 s", priceInr:"₹ 30,00,00,000"},
+      {name:"Huayra Codalunga", year:2022, img:"https://your-image-url.com/huayra-codalunga.jpg", hp:840, topKph:370, topMph:230, zeroTo100:"2.9 s", priceInr:"₹ 45,00,00,000"},
+      {name:"Huayra Tricolore", year:2020, img:"https://your-image-url.com/huayra-tricolore.jpg", hp:827, topKph:380, topMph:236, zeroTo100:"2.9 s", priceInr:"₹ 50,00,00,000"},
+      {name:"Huayra Pearl (One-off)", year:2016, img:"https://your-image-url.com/huayra-pearl.jpg", hp:720, topKph:370, topMph:230, zeroTo100:"3.3 s", priceInr:"₹ 26,00,00,000"},
+      {name:"Huayra Hermes Edition", year:2016, img:"https://your-image-url.com/huayra-hermes.jpg", hp:720, topKph:360, topMph:224, zeroTo100:"3.3 s", priceInr:"₹ 30,00,00,000"},
+      {name:"Huayra La Monza Lisa", year:2015, img:"https://your-image-url.com/huayra-la-monza-lisa.jpg", hp:730, topKph:360, topMph:224, zeroTo100:"3.2 s", priceInr:"₹ 24,50,00,000"},
+      {name:"Huayra Lampo", year:2017, img:"https://your-image-url.com/huayra-lampo.jpg", hp:750, topKph:370, topMph:230, zeroTo100:"3.2 s", priceInr:"₹ 25,00,00,000"},
+      {name:"Utopia", year:2022, img:"https://your-image-url.com/utopia.jpg", hp:864, topKph:350, topMph:217, zeroTo100:"2.9 s", priceInr:"₹ 35,00,00,000"},
+      {name:"Utopia Roadster", year:2025, img:"https://your-image-url.com/utopia-roadster.jpg", hp:864, topKph:350, topMph:217, zeroTo100:"2.9 s", priceInr:"₹ 40,00,00,000"}
+    ];
+
+    const grid = document.getElementById('grid');
+    const q = document.getElementById('search');
+    const modal = document.getElementById('modal');
+
+    function formatINR(x){ return x; } // values already formatted (₹ x,xx,xx,xxx)
+
+    function carCard(car, idx){
+      const el = document.createElement('article');
+      el.className = 'card';
+      el.innerHTML = `
+        <img class="thumb" src="${car.img}" alt="${car.name}" />
+        <div class="card-body">
+          <div class="name">${car.name} <span class="muted">• ${car.year}</span></div>
+          <div class="specs">
+            <div class="spec"><strong>HP</strong><br><span class="muted">${car.hp} hp</span></div>
+            <div class="spec"><strong>Top Speed</strong><br><span class="muted">${car.topKph} km/h • ${car.topMph} mph</span></div>
+            <div class="spec"><strong>0–100</strong><br><span class="muted">${car.zeroTo100}</span></div>
+            <div class="spec"><strong>Price</strong><br><span class="muted">${formatINR(car.priceInr)}</span></div>
+          </div>
+          <div class="cta"><button class="btn" aria-label="View details">View details</button></div>
+        </div>`;
+      el.querySelector('.btn').addEventListener('click', ()=> openModal(car));
+      el.querySelector('.thumb').addEventListener('click', ()=> openModal(car));
+      return el;
+    }
+
+    function render(list){
+      grid.innerHTML='';
+      list.forEach((c,i)=> grid.appendChild(carCard(c,i)));
+    }
+
+    function openModal(car){
+      document.getElementById('m-title').textContent = `${car.name} • ${car.year}`;
+      document.getElementById('m-img').src = car.img;
+      document.getElementById('m-desc').textContent = `${car.name} — quick specs overview.`;
+      document.getElementById('m-hp').textContent = `${car.hp} hp`;
+      document.getElementById('m-top').textContent = `${car.topKph} km/h • ${car.topMph} mph`;
+      document.getElementById('m-accel').textContent = car.zeroTo100;
+      document.getElementById('m-price').textContent = formatINR(car.priceInr);
+      modal.showModal();
+    }
+
+    function closeModal(){ modal.close(); }
+
+    // search/filter
+    q.addEventListener('input', (e)=>{
+      const term = e.target.value.toLowerCase().trim();
+      if(!term) return render(cars);
+      const out = cars.filter(c => `${c.name} ${c.year}`.toLowerCase().includes(term));
+      render(out);
+    });
+
+    // initial render
+    render(cars);
+  </script>
+</body>
+</html>
